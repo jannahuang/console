@@ -229,7 +229,7 @@ const handleData = (e, type, data) => {
     } else {
         triangle.classList.add('triangle-right')
         triangle.classList.remove('triangle-down')
-        // 折叠
+        // 折叠 
         fold(e, type)
     }
 }
